@@ -1,0 +1,16 @@
+FLOW CONDITIONS
+
+Flow Name:
+Burnout Critical Alert
+
+Trigger:
+Runs when Burnout Score record is updated.
+
+Condition:
+Burnout Score > 70
+
+Action:
+Automatically sends email alert to manager/admin.
+
+Purpose:
+To notify management when employee enters critical burnout zone.

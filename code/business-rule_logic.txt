@@ -1,0 +1,15 @@
+BUSINESS RULE LOGIC
+
+This business rule dynamically calculates employee burnout score whenever a task is inserted or updated.
+
+Conditions considered:
+- Task priority
+- Task status
+- Overdue tasks
+
+Based on the calculated score:
+0-30   → Low Risk
+31-60  → Medium Risk
+61-100 → High Risk
+
+The calculated score is automatically updated in the Burnout Score table.
